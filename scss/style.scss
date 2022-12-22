@@ -1,0 +1,102 @@
+
+@import "_reset.css";
+
+:root {
+    --nav-text: #969696;
+    --white: #FFFFFF;
+    --background-black: #000000;
+    --background-gray: #0F0F0F;
+}
+
+body{
+    max-width: 1920px;
+    height: auto;
+    box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
+    margin: 0 auto;
+
+    header{
+        .top-line{
+            max-width: 1980px;
+            height: 44px;
+            background-color: var(--background-black) ;
+
+            .tel {
+                display: flex;
+                flex-direction: row;   
+                list-style-type: none;
+                justify-content: flex-start;
+            }
+            .inform{
+                max-width: 1080px;
+                height: 44px;
+                display: flex;
+                justify-content: space-between;
+                
+                color: var(--nav-text);
+                flex-direction: row;  
+                align-items: center;
+                margin: 0 auto;
+            }
+
+            .login{
+                display: flex;
+                flex-direction: row;   
+                list-style-type: none;
+            }
+        }
+
+        nav{
+            display: flex;
+            background-color: var(--background-gray);
+            color: #969696;
+            height: 80px;
+            .second-line{
+                max-width: 1080px;
+                height: 80px;
+                display: flex;
+                .icon{
+                    display: flex;
+                    flex-direction: row;   
+                }
+                .menu{
+                    display: flex;
+                    flex-direction: row;   
+                }
+            }
+        }
+        
+        
+    }
+    main{
+        section{
+            .first-screen{
+                background-image: url(/img/first-screen.png);
+                .explain{
+                    .logo{
+                        
+                    }
+                }
+            }
+
+            .new-collection{
+
+            }
+
+            .our-brands{
+            
+            }
+
+        }
+        article{
+
+        }
+
+        footer{
+
+        }
+    }
+    .last-line{
+
+    }
+}
+
