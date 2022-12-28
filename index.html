@@ -1,16 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="/css/style.css" />
-<title>Porten</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+
+    <!-- Pt Sans, Playfair Display -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/style/media.css"> -->
+    <title>Porten</title>
 </head>
 
 
 <body>
-<header>
-</header>
+<!-- 1. Переименовать все слассы 
+    2. Добавить раздел статей
+    2. Добавить размеры контейнеров
+    3. Интегрировать медиа запросы
+    4. 
+        -->
+    <header class="header">
+        <!-- top -->
+        <div class="top-line">
+            <div class="common-container">
+                <div class="info">
+                    <a href="tel:+88121234567">
+                        <img src="/img/eva_phone-outline.png" alt="">
+                    </a>
+                    <p class="text">8 (812) 123-45-67    |   Працюємо 7 днів на тиждень    |    9:00 — 18:00</p>
+                </div>
+                <div class="info">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <p class="text">Вхід / Реєстрація</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- nav -->
+        <nav class="second-line">
+            <div class="common-container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="/img/PORTEN.png" alt="">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="#" class="link">Сподобалось</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Особистий кабінет</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Налаштування</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="link"><i class="fas fa-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="first-screen">
+        <div class="first-screen-logo">
+            <img src="/img/logo.png" alt="logo">
+        </div>
+        <p class="first-screen-text">
+            В магазинах Торговельній мережі Porten ви можете купити годинник у Бахмуті, Вінниці, Дніпрі, Житомирі, Запоріжжі, Івано-Франківську, Києві, Краматорську, Луцьку, Львові, Одесі, Покровську, Полтаві, Рівному, Слов'янську, Сумах, Тернополі, Харкові, Херсоні, Хмельницькому, Черкасах, Чернівцях, Чернігові , а також багатьох інших містах України
+        </p>
+    </section>
+
+    <!-- season -->
+    <section class="season">
+        <div class="content">
+            <h2 class="site-title">СЕЗОН 2021/22</h2>
+            <div class="site-line"></div>
+            <div class="wrapper">
+                <!--  cards-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/Louis XVI ATHOS.png" alt="product">
+                    </div>
+                    <h3 class="title">Louis XVI ATHOS</h3>
+                    <p class="price">13 600 грн.</p>
+                </div>
+                <!--  cards-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/Carl von Zeyten.png" alt="product">
+                    </div>
+                    <h3 class="title">Carl von Zeyten</h3>
+                    <p class="price">16 500 грн.</p>
+                </div>
+                <!--  cards-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/JORD AR5905.png" alt="product">
+                    </div>
+                    <h3 class="title">JORD AR5905</h3>
+                    <p class="price">65 000 грн.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-block">
+            <div class="wrap">
+                <h2 class="site-title">Нова колекція</h2>
+                <div class="site-line"></div>
+                <button class="site-btn">Каталог</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- collection -->
+    <section class="collect">
+        <div class="image-block"></div>
+
+        <div class="content">
+            <h2 class="site-title">коллекция 2018</h2>
+            <div class="site-line"></div>
+            <p class="site-text">Годинники як інструмент визначення часу давно і надійно прижилися в людській реальності. Романтики та прагматики, художники та бізнесмени, чоловіки та жінки, дорослі та діти - всі хочуть знати котра година в потрібний момент. Скільки хвилин пройшло, скільки залишилося, а ще - які саме моделі і якого бренду виблискують на руці у друга, коханої або конкурента. З давніх часів, коли людина здогадався втикнути в землю паличку та іншою поличкою взявся відміряти рівні проміжки часу на піску, не вщухають суперечки - яким повинний бути годинник? Наручним, або настільним, або настінним, або, нарешті, підлоговим? Чому ж кожен діамантик на безеле або шестерінка в механізмі незмінно змушують гордовито випнутися нижню губу володаря аксесуара, а щоки - роздутися?</p>
+            <button class="site-btn">посмотреть коллекцию</button>
+        </div>
+    </section>
+
+    <!-- products -->
+    <section class="products">
+        <div class="common-container">
+            <h2 class="site-title">Нові надходження</h2>
+            <div class="site-line"></div>
+
+            <div class="wrapper">
+                <!--  cards1-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/Carl von Zeyten.png" alt="product">
+                    </div>
+                    <h3 class="title">Carl von Zeyten</h3>
+                    <p class="price">16 500 грн.</p>
+                </div>
+                <!--  cards2-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/JORD AR5905.png" alt="product">
+                    </div>
+                    <h3 class="title">JORD AR5905</h3>
+                    <p class="price">65 000 грн.</p>
+                </div>
+                <!--  cards3-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/Emporio Armani Sportivo.png" alt="product">
+                    </div>
+                    <h3 class="title">Emporio Armani Sportivo</h3>
+                    <p class="price">165 000 грн.</p>
+                </div>
+                <!--  cards4-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/Rolex Oyster Perpetual.png" alt="product">
+                    </div>
+                    <h3 class="title">Rolex Oyster Perpetual</h3>
+                    <p class="price">280 000 грн.</p>
+                </div>
+                <!--  cards5-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/Louis XVI ATHOS.png" alt="product">
+                    </div>
+                    <h3 class="title">Louis XVI ATHOS</h3>
+                    <p class="price">65 000 грн.</p>
+                </div>
+                <!--  cards6-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/U-Boat Italo Fontana.png" alt="product">
+                    </div>
+                    <h3 class="title">U-Boat Italo Fontana</h3>
+                    <p class="price">18 700 грн.</p>
+                </div>
+                <!--  cards7-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/Gucci Men's G.png" alt="product">
+                    </div>
+                    <h3 class="title">Gucci Men's G</h3>
+                    <p class="price">38 500 грн.</p>
+                </div>
+                <!--  cards8-->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/img/product/JORD AR5905.png" alt="product">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- тутуту -->
+    <h2 class="site-title">Статті та корисна інформація</h2>
+            <div class="site-line"></div>
+    <article class="article">
+        <div class="article-image-block"></div>
+
+        <div class="content">
+            <h2 class="article-title">ROGER DUBUIS. ЧАСТИНА 1</h2>
+            
+            <p class="article-text">Годинники як інструмент визначення часу давно і надійно прижилися в людській реальності. Романтики та прагматики, художники та бізнесмени, чоловіки та жінки, дорослі та діти - всі хочуть знати котра година в потрібний момент. Скільки хвилин пройшло, скільки залишилося, а ще - які саме моделі і якого бренду виблискують на руці у друга, коханої або конкурента. З давніх часів, коли людина здогадався втикнути в землю паличку та іншою поличкою взявся відміряти рівні проміжки часу на піску, не вщухають суперечки - яким повинний бути годинник? Наручним, або настільним, або настінним, або, нарешті, підлоговим? Чому ж кожен діамантик на безеле або шестерінка в механізмі незмінно змушують гордовито випнутися нижню губу володаря аксесуара, а щоки - роздутися?</p>
+            <div class="article-btns">
+                <button class="article-btn">читати</button>
+                <a class="hex">#ЕКСКЛЮЗИВ  #ПРОБРЕНД</a>
+            </div>
+        </div>
+    </article>
+
+    <article class="article">
+        <div class="article-image-block-2"></div>
+
+        <div class="content">
+            <h2 class="article-title">ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1</h2>
+            
+            <p class="article-text">Історія люксових годинників зародилася дуже давно, вона веде відлік із часів перших годинників у світі. Тоді годинник був розкішшю, яку могла собі дозволити лише найвища еліта суспільства. Навіть не всім, хто має титул і великі гроші, могли виготовити цей розкішний аксесуар. Власне, з того часу мало що змінилося.</p>
+            <div class="article-btns">
+                <button class="article-btn">читати</button>
+                <a class="hex">#ЕКСКЛЮЗИВ  #IСТОРIЯ</a>
+            </div>
+        </div>
+    </article>
+
+    <article class="article">
+        <div class="article-image-block-3"></div>
+
+        <div class="content">
+            <h2 class="article-title">ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h2>
+            
+            <p class="article-text">На початку цього року компанія Tissot оновила модель PRS 516 Automatic Chronograph, але не пішла вінтажним шляхом. На противагу колекції Heritage із переконливими рімейками вінтажних моделей, PRS 516 – це сучасний хронограф із зухвалим настроєм, безліччю деталей автоспорту й за чудовою ціною.</p>
+            <div class="article-btns">
+                <button class="article-btn">читати</button>
+                <a class="hex">#ХРОНОГРАФ  #TISSOT  #ОГЛЯДГОДИННИКIВ</a>
+            </div>
+        </div>
+    </article>
+
+
+
+
+
+
+    
+
+    <!-- brands -->
+    <section class="brand">
+        <div class="common-container">
+            <div class="site-title">Наші партнери</div>
+            <div class="site-line"></div>
+            <div class="wrapper">
+                <img src="/img/partners/brand-cocofine.png" alt="brand">
+                <img src="/img/partners/brand-rolex.png" alt="brand">
+                <img src="/img/partners/brand-breguet.png" alt="brand">
+                <img src="/img/partners/brand-haven.png" alt="brand">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="common-container">
+            <div class="item">
+                <h3 class="title">Про компанію</h3>
+                <p class="text">Компанія PORTEN – лідер на українському ринку годинників. На цей час ми об'єднуємо більше сорока магазинів у різних куточках України та інтернет-магазин, який став першим в нашому сегменті ринку. Торгова мережа PORTEN – офіційний дистриб'ютор більше 50 найвідоміших годинникових марок, починаючи від японської CASIO, закінчуючи швейцарськими LONGINES, ZENITH, TAG HEUER. Однак компанія не обмежується лише годинниками – в інтернет-магазині та бутіках мережі ви знайдете прекрасні ювелірні вироби від таких іменитих брендів, як SWAROVSKI и CHRISTINA.</p>
+            </div>
+            <div class="item">
+                <h3 class="title">Категорії</h3>
+                <div class="block">
+                    <a href="#">Годинники</a>
+                    <a href="#">Запонки</a>
+                    <a href="#">Ремені</a>
+                    <a href="#">Ювелірні вироби</a>
+                    <a href="#">На замовлення</a>
+                    <a href="#">Браслети</a>
+                </div>
+            </div>
+            <div class="item">
+                <h3 class="title">Розсилка</h3>
+                <p class="text">Компанія пропонує тільки оригінальну продукцію від найвідоміших світових брендів за найкращою ціною. Ми дбаємо про комфорт наших покупців і постійно розширюємо можливості сервісного обслуговування.</p>
+                <form>
+                    <input type="email" placeholder="">
+                    <button>ПІДПИСАТЬСЯ</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="common-container">
+            <p>© 2022 PORTEN, Інтернет-магазин годинників</p>
+            <a href="#">Угода користувача</a>
+
+        </div>
+    </div>
+
 </body>
 </html>
